@@ -1,0 +1,68 @@
+/* Contact Page Styles */
+body {
+  background: #111; /* Jet black */
+ 
+
+  color: rgb(31, 14, 14);
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+.contact-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 50px 20px;
+}
+
+/* Transparent Form Box */
+.form-box {
+  background: rgb(250, 250, 250); /* jet black transparency */
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 500px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.form-box h2 {
+  margin-bottom: 20px;
+}
+
+.form-box form {
+  display: flex;
+  flex-direction: column;
+  gap: 15px;
+}
+
+.form-box input,
+.form-box textarea {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.961); /* frosted look */
+  color: rgb(4, 3, 3);
+  outline: none;
+}
+
+.form-box textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.form-box button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  transition: 0.3s ease;
+}
+
+.form-box button:hover {
+  background: #aaa;
+}

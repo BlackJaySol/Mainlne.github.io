@@ -1,0 +1,194 @@
+<!DOCTYPE html PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<html>
+<head>
+  <meta http-equiv="Content-Type" content="text/html; charset=utf-8">
+  <meta http-equiv="Content-Style-Type" content="text/css">
+    <link rel="stylesheet" href="styles.css">
+  <title>North Archives </title>
+  <meta name="Generator" content="Cocoa HTML Writer">
+  <meta name="CocoaVersion" content="2575.6">
+
+</head>
+<body>
+<!doctype html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Navbar with Dropdown</title>
+  <link rel="stylesheet" href="styles.css" />
+</head>
+<body>
+
+<nav role="navigation" aria-label="Main navigation">
+  <div class="container">
+<a href="#" aria-label="Homepage" class="logo">
+  M<span class="custom">A</span>IN<span class="custom">L</span>ne </a>
+
+    <ul class="nav-list" role="menubar" aria-label="Primary">
+      <li role="none">
+        <a role="menuitem" href="index.html">About</a>
+      </li>
+
+      <li role="none">
+        <!-- Products dropdown toggle -->
+        <button
+          class="nav-toggle"
+          aria-haspopup="true"
+          aria-expanded="false"
+          id="productsToggle"
+          aria-controls="productsMenu"
+        >
+          Products ▾
+        </button>
+
+        <!-- Dropdown menu -->
+        <div class="dropdown" id="productsMenu" role="menu" aria-hidden="true" aria-labelledby="productsToggle">
+          <div class="category" role="presentation">Categories</div>
+          <a role="menuitem" href="/products/digital-download-prints">Digital Download Prints</a>
+          <a role="menuitem" href="/products/photography-prints">Photography Prints</a>
+        </div>
+      </li>
+
+      <li role="none">
+        <a role="menuitem" href="/gallery">Gallery</a>
+      </li>
+
+      <li role="none">
+        <a role="menuitem" href="contact.html">Contact</a>
+      </li>
+    </ul>
+  </div>
+</nav>
+<header class="banner">
+  <div class="banner-content">
+    <h1>North Archives</h1>
+    <p> Prints & Stock Photography</p>
+  </div>
+</header>
+
+<section class="about">
+  <div class="about-container">
+    <h2>About</h2>
+    <p>
+      North Archives is dedicated to curating fine art prints and timeless photography.  
+      Our mission is to bring meaningful, story-driven visuals into your home and workspace,  
+      blending modern design with classic artistry.
+    </p>
+  </div>
+</section>
+
+
+
+
+
+<!-- Content Library Section -->
+<section class="library">
+  <div class="library-container">
+    <h2>Content Library</h2>
+    <p class="library-intro">
+      Explore curated resources, guides, and collections designed to inspire, educate,  
+      and complement your journey with North Archives.
+    </p>
+
+    <div class="library-grid">
+      <!-- Photos -->
+      <div class="library-card">
+        <img src="Images/DSC00124.jpg" alt="Photos Thumbnail">
+        <div class="library-details">
+          <h3 class="library-title">Photos</h3>
+          <p class="library-description">
+            Discover high-quality photography capturing landscapes, portraits, and timeless moments.
+          </p>
+          <a href="#" class="library-button">Browse Photos</a>
+        </div>
+      </div>
+
+      <!-- Resource 2 -->
+      <div class="library-card">
+        <img src="Images/DSC00323(Final).jpg" alt="Collection Thumbnail">
+        <div class="library-details">
+          <h3 class="library-title">Art Print Collections</h3>
+          <p class="library-description">
+            Discover curated collections of fine art prints, spanning styles from modern minimalism to classic elegance.
+          </p>
+          <a href="#" class="library-button">Browse Collections</a>
+        </div>
+      </div>
+
+      <!-- Resource 3 -->
+      <div class="library-card">
+        <img src="Images/DSC00153.JPG" alt="Download Thumbnail">
+        <div class="library-details">
+          <h3 class="library-title">Digital Downloads</h3>
+          <p class="library-description">
+            Access high-resolution digital files for instant download — perfect for creative projects and decor.
+          </p>
+          <a href="#" class="library-button">Explore Downloads</a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
+<section class="video-section">
+  <video autoplay muted loop playsinline class="bg-video" id="bgVideo">
+    <source src="Videos/Untitled.mp4" type="video/mp4">
+    Your browser does not support the video tag.
+  </video>
+  <div class="video-overlay">
+    <h2>Experience Visual Stories</h2>
+    <p>Immersive video art and cinematic moments</p>
+  </div>
+</section>
+
+
+
+<!-- Footer Section -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <!-- Logo / Brand -->
+    <div class="footer-brand">
+      <a href="#" class="footer-logo">
+        M<span class="custom">A</span>AIN<span class="custom">L</span>ne
+      </a>
+      <p>Fine Art Prints & Photography</p>
+    </div>
+
+    <!-- Navigation Links -->
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+         <li><a href="submit.html">Artwork Submission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+         <li><a href="privacyandterms.html">Privacy Policy & Terms of use</a></li>
+      </ul>
+    </div>
+
+    <!-- Social Media -->
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <ul>
+        <li><a href="#" aria-label="Instagram">Instagram</a></li>
+        <li><a href="#" aria-label="Facebook">Facebook</a></li>
+        <li><a href="#" aria-label="Twitter">Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+
+  <!-- Bottom Bar -->
+  <div class="footer-bottom">
+    <p>&copy; 2025 North Archives. All Rights Reserved.</p>
+  </div>
+</footer>
+
+
+
+<script src="script.js"></script>
+</body>
+</html>
+</body>
+</html>

@@ -1,0 +1,93 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="utf-8" />
+  <meta name="viewport" content="width=device-width,initial-scale=1" />
+  <title>Submit Your Art - North Archives</title>
+  <link rel="stylesheet" href="styles.css" />   <!-- global navbar/footer -->
+  <link rel="stylesheet" href="submit.css" />   <!-- page-specific styles -->
+</head>
+<body>
+
+<!-- NAVBAR -->
+<nav role="navigation" aria-label="Main navigation">
+  <div class="container">
+    <a href="index.html" aria-label="Homepage" class="logo">
+      N<span class="custom">O</span>RTH ARCH<span class="custom">I</span>VES
+    </a>
+    <ul class="nav-list">
+      <li><a href="index.html">About</a></li>
+      <li><a href="/products">Products</a></li>
+      <li><a href="/gallery">Gallery</a></li>
+      <li><a href="contact.html">Contact</a></li>
+      <li><a href="submit.html">Submit Art</a></li>
+    </ul>
+  </div>
+</nav>
+
+<!-- SUBMIT ART FORM -->
+<main class="submit-page">
+  <div class="form-box">
+    <h2>Submit Your Artwork</h2>
+    <p class="intro">We welcome artists from around the world. Share your creations and become part of North Archives’ curated collection.</p>
+    <form method="POST" enctype="multipart/form-data">
+      <!-- Artist Info -->
+      <input type="text" name="artist_name" placeholder="Your Name" required>
+      <input type="email" name="artist_email" placeholder=" Email" required>
+      <input type="text" name="artist_social" placeholder="Website / Instagram (optional)">
+      
+      <!-- Artwork Info -->
+      <input type="text" name="art_title" placeholder="Artwork Title" required>
+      <textarea name="art_description" placeholder="Short Description" required></textarea>
+      
+      <select name="art_category" required>
+        <option value="">Select Category</option>
+        <option value="photography">Photography</option>
+        <option value="painting">Painting</option>
+        <option value="digital">Digital Art</option>
+        <option value="mixed">Mixed Media</option>
+      </select>
+      
+      <!-- Upload -->
+      <label for="artwork_image">Upload Preview Image:</label>
+      <input type="file" id="artwork_image" name="artwork_image" accept="image/*" required>
+      
+      <button type="submit">Submit Artwork</button>
+    </form>
+  </div>
+</main>
+
+<!-- FOOTER -->
+<footer class="site-footer">
+  <div class="footer-container">
+    <div class="footer-brand">
+      <a href="index.html" class="footer-logo">N<span class="custom">O</span>RTH ARCH<span class="custom">I</span>VES</a>
+      <p>Fine Art Prints & Photography</p>
+    </div>
+    <div class="footer-links">
+      <h4>Quick Links</h4>
+      <ul>
+        <li><a href="index.html">About</a></li>
+        <li><a href="/products">Products</a></li>
+        <li><a href="/gallery">Gallery</a></li>
+         <li><a href="submit.html">Artwork Submission</a></li>
+        <li><a href="contact.html">Contact</a></li>
+       
+      </ul>
+    </div>
+    <div class="footer-social">
+      <h4>Follow Us</h4>
+      <ul>
+        <li><a href="#">Instagram</a></li>
+        <li><a href="#">Facebook</a></li>
+        <li><a href="#">Twitter</a></li>
+      </ul>
+    </div>
+  </div>
+  <div class="footer-bottom">
+    <p>&copy; 2025 North Archives. All Rights Reserved.</p>
+  </div>
+</footer>
+
+</body>
+</html>

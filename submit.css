@@ -1,0 +1,94 @@
+/* Submit Page Background */
+body {
+  background: #eaeaea; /* jet black */
+  
+  color: white;
+  margin: 0;
+  font-family: Arial, sans-serif;
+}
+
+/* Center content */
+.submit-page {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 70vh;
+  padding: 50px 20px;
+}
+
+/* Transparent Elegant Form Box */
+.form-box {
+  background: rgba(0, 0, 0, 0.75); /* jet black transparency */
+  padding: 40px;
+  border-radius: 15px;
+  max-width: 600px;
+  width: 100%;
+  text-align: center;
+  box-shadow: 0 8px 20px rgba(0,0,0,0.6);
+}
+
+.form-box h2 {
+  margin-bottom: 10px;
+}
+
+.form-box .intro {
+  font-size: 0.95em;
+  margin-bottom: 20px;
+  color: #ccc;
+}
+
+/* Inputs, Textarea, Select */
+.form-box input,
+.form-box textarea,
+.form-box select {
+  padding: 12px;
+  border: none;
+  border-radius: 8px;
+  background: rgba(255, 255, 255, 0.12);
+  color: white;
+  outline: none;
+  width: 100%;
+  margin-bottom: 15px;
+  font-size: 1em;
+}
+
+.form-box textarea {
+  min-height: 100px;
+  resize: none;
+}
+
+.form-box select {
+  cursor: pointer;
+}
+
+.form-box input::placeholder,
+.form-box textarea::placeholder {
+  color: #bbb;
+}
+
+/* Upload Label */
+.form-box label {
+  display: block;
+  text-align: left;
+  margin-bottom: 8px;
+  font-size: 0.9em;
+  color: #aaa;
+}
+
+/* Button */
+.form-box button {
+  background: white;
+  color: black;
+  border: none;
+  padding: 12px;
+  border-radius: 8px;
+  font-weight: bold;
+  cursor: pointer;
+  width: 100%;
+  transition: 0.3s ease;
+}
+
+.form-box button:hover {
+  background: #aaa;
+  color: black;
+}
