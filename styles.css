@@ -192,7 +192,7 @@ a:hover, button.nav-toggle:hover {
 
 .banner {
   height: 300px; /* smaller height than hero */
-  background-image: url('./images/dsc00214.jpg'); /* replace with your banner image */
+  background-image: url('/images/dsc00214.jpg'); /* replace with your banner image */
   background-size: cover;
   background-position: center;
   display: flex;
